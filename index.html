@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1100">
+                Vaishnavi <span>Senthil</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="100"><a href="#home">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="200"><a href="#about">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="300"><a href="#skills">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="400"><a href="#projects">Projects</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="500"><a href="#contact">Contact</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>       
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    <section id="home">
+        <div class="main-container">
+            <div class="image" data-aos="zoom-in" data-aos-duration="2500">
+                <img src="main.jpg" alt="">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1100" data-aos-delay="700">Hey I'm <span>Vaishnavi S</span></h1>
+                <div class="typewrite" data-aos="fade-right" data-aos-duration="1100" data-aos-delay="900">I'm a <!-- Inside your .typewrite div -->
+<span class="typewrite-text" id="typewrite-text"></span>
+ <label for="">|</label></div>
+                <p data-aos="flip-up" data-aos-duration="1100" data-aos-delay="1100">A highly motivated recent graduate with a strong foundation in Python programming, eager to contribute to full-stack development projects by leveraging skills in web frameworks like Django, front-end technologies like HTML/CSS/JavaScript/React.JS, and a passion for building dynamic and user-friendly web applications</p>
+                <div class="social-links">
+                    <a href="#" data-aos="zoom-out" data-aos-duration="1100" data-aos-delay="1300"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="1400"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="1500"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="1600"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="1700"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="btn">
+                    <button>Hire Me</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1100"><span>About Me</span></div>
+            <div class="about-details">
+                <div class="left" data-aos="fade-right" data-aos-duration="1100" data-aos-delay="100">
+                    <img src="main.jpg" alt=""/>
+                </div>
+                <div class="right">
+                    <p class="about-text" data-aos="fade-left" data-aos-duration="1100" data-aos-delay="200"> I'm <span>Vaishnavi</span>, a passionate <span>Full Stack Developer</span> with a strong interest in building efficient, responsive, and user-friendly web applications. As a fresher, I'm eager to apply my technical skills in real-world projects, constantly learning and growing with each challenge. My focus is on writing clean code, delivering thoughtful design, and creating solutions that make a difference.
+                    </p>
+                    <div class="exp-area">
+                        <p class="exp" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="300">
+                            Experience:
+                            <span>Fresher</span>
+                        </p>
+                        <p class="exp" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="400">
+                            Speciality:
+                            <span>Python Full Stack Developer</span>
+                        </p>
+                        <p class="exp" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="500">
+                            Address:
+                            <span>Tirupur, TamilNadu, India</span>
+                        </p>
+                        <p class="exp" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="600">
+                            Email:
+                            <span>vaishnavisenthillrg@gmail.com</span>
+                        </p>
+                        <p class="exp" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="700">
+                            Phone:
+                            <span>+91 7339X XXXXX</span>
+                        </p>
+                        <div class="button" data-aos="zoom-out" data-aos-duration="1100" data-aos-delay="800">
+                            <button>View Projects</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1100"><span>My Skills</span></div>
+            <div class="skills-details">
+                <div class="text">
+                    <div class="topic" data-aos="fade-right" data-aos-duration="1100" data-aos-delay="100">Skills Reflected Our Knowledge</div>
+                    <p data-aos="flip-down" data-aos-duration="1100" data-aos-delay="200">This portfolio reflects a well-rounded foundation in both front-end and back-end development. From building responsive layouts with HTML, CSS, and Bootstrap to adding interactivity using JavaScript and React, I focus on delivering clean and user-friendly interfaces. On the server side, I work with Python, Django, MySQL, and PHP to develop dynamic and scalable web applications. Each project demonstrates not only my technical knowledge but also my dedication to continuous learning and practical problem-solving as a fresher developer.</p>
+                    <div class="experience" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="300">
+                        <div class="num">0</div>
+                        <div class="exp">Fresher</div>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <div class="box" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="400">
+                        <div class="topic">HTML</div>
+                        <div class="per">90%</div>
+                    </div>
+                    <div class="box" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="500">
+                        <div class="topic">CSS</div>
+                        <div class="per">90%</div>
+                    </div>
+                    <div class="box" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="600">
+                        <div class="topic">Bootstrap</div>
+                        <div class="per">95%</div>
+                    </div>
+                    <div class="box" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="700">
+                        <div class="topic">JavaScript</div>
+                        <div class="per">73%</div>
+                    </div>
+                    <div class="box" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="800">
+                        <div class="topic">Python</div>
+                        <div class="per">92%</div>
+                    </div>
+                    <div class="box" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="900">
+                        <div class="topic">Django</div>
+                        <div class="per">75%</div>
+                    </div>
+                    <div class="box" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="1000">
+                        <div class="topic">MySQL</div>
+                        <div class="per">95%</div>
+                    </div>
+                    <div class="box" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="1100">
+                        <div class="topic">React.JS</div>
+                        <div class="per">80%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1100"><span>My Projects</span></div>
+            <div class="boxes">
+                <div class="box" data-aos="fade-right" data-aos-duration="1100" data-aos-delay="100">
+                    <div class="image">
+                        <img src="./listmanager.jpg" alt="">
+                    </div>
+                    <div class="topic">List Manager</div>
+                    <p>The List Manager is a Python-based command-line application that allows users to manage a list of items with essential operations such as adding new items, clearing the list, sorting, viewing the list, checking its length, copying items, removing specific entries, and exiting the program. It's an interactive tool ideal for practicing list operations and basic Python control structures. </p>
+                </div>
+                 <div class="box" data-aos="fade-left" data-aos-duration="1100" data-aos-delay="100">
+                    <div class="image">
+                        <img src="./asp.jpg" alt="">
+                    </div>
+                    <div class="topic">Appointment Scheduling System</div>
+                    <p>This desktop application enables users to schedule, update, and manage appointments through a user-friendly Python Tkinter GUI. Integrated with a MySQL database, it securely stores user details, appointment times, and descriptions, allowing real-time operations like booking, viewing, editing, and deleting appointments.</p>
+                </div>
+                 <div class="box" data-aos="fade-right" data-aos-duration="1100" data-aos-delay="100">
+                    <div class="image">
+                        <img src="./foodrecipe.jpg" alt="">
+                    </div>
+                    <div class="topic">Food Recipe Count</div>
+                    <p>This project is a Django-based web application that allows users to create, view, and manage food recipes with detailed ingredients and instructions. It includes a dynamic ingredient scaling feature that adjusts ingredient quantities based on the user's desired number of servings, making meal preparation more flexible and accurate.</p>
+                </div>
+                 <div class="box"data-aos="fade-left" data-aos-duration="1100" data-aos-delay="300">
+                    <div class="image">
+                        <img src="./html&css.jpg" alt="">
+                    </div>
+                    <div class="topic">Restaurant Menu & Reservation</div>
+                    <p>This is a static web project that showcases a restaurant’s digital menu and allows users to view available dishes along with a styled table layout for reservations. Built using HTML and CSS, the project features sections for appetizers, main courses, desserts, and beverages, along with a clean and responsive reservation table design that enhances the user experience.</p>
+                </div>
+                 <div class="box" data-aos="fade-right" data-aos-duration="1100" data-aos-delay="300">
+                    <div class="image">
+                        <img src="./Bootstrap.jpeg" alt="">
+                    </div>
+                    <div class="topic">Bootstrap</div>
+                    <p>This is a responsive landing page built using HTML, CSS, Bootstrap 5, and Font Awesome icons. It features a professional navbar, an intro banner, multiple informational sections (services, about, testimonials), cards with icons, and a rich footer with newsletter signup and links. Designed to demonstrate modern UI layout, mobile-first design, and component-based structure using Bootstrap's utility classes.</p>
+                </div>
+                 <div class="box" data-aos="fade-left" data-aos-duration="1100" data-aos-delay="400">
+                    <div class="image">
+                        <img src="./javascript.jpg" alt="">
+                    </div>
+                    <div class="topic">Chat App</div>
+                    <p>This is a playful web-based chat application built with HTML, CSS, and JavaScript that simulates a humorous conversation between the user and a "sassy bot." It includes a styled chat interface, automated funny replies, typing animations, and emoji reactions to keep users entertained. Perfect for showcasing front-end interactivity and creative UI design!</p>
+                </div>
+                <div class="box" data-aos="fade-right" data-aos-duration="1100" data-aos-delay="400">
+                    <div class="image">
+                        <img src="./netflixclone.jpg" alt="">
+                    </div>
+                    <div class="topic">Netflix Clone</div>
+                    <p>This Netflix Clone is a movie streaming front-end application built using React.js, styled with CSS, and powered by The Movie Database (TMDB) API for dynamic movie and TV show content. It features a Netflix-style UI with banners, rows of movie thumbnails, and category-wise listings. Firebase Authentication allows users to securely sign up and log in, while Firebase Hosting is used to deploy the app online. The project showcases integration of real-time APIs, user auth, and responsive design in a modern React ecosystem.</p>
+                </div>
+                 <div class="box" data-aos="fade-left" data-aos-duration="1100" data-aos-delay="500">
+                    <div class="image">
+                        <img src="./portfolio.jpg" alt="">
+                    </div>
+                    <div class="topic">Personal Portfolio</div>
+                    <p>This Personal Portfolio Website is built using HTML, CSS, and JavaScript, designed to present your professional profile, showcase your projects, and share your contact information. It includes sections like About Me, Skills, Projects, and Contact, with responsive design for all devices. Smooth scrolling, interactive elements, and modern UI effects make the portfolio engaging and professional.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1100"><span>Contact Me</span></div>
+            <div class="text">
+                <div class="topic" data-aos="fade-left" data-aos-duration="1100" data-aos-delay="100">Have Any Project?</div>
+                <p data-aos="fade-right" data-aos-duration="1100" data-aos-delay="200">Have a project in mind or want to collaborate? I'm always excited to take on new challenges, contribute to meaningful work, or simply connect. Feel free to drop a message — I’ll get back to you as soon as possible!</p>
+            </div>
+            <div class="contact-form-container">
+                <form class="contact-form">
+                    <label for="name" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="300">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required data-aos="fade-up" data-aos-duration="1100" data-aos-delay="300">
+                    <label for="email" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="400">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required data-aos="fade-up" data-aos-duration="1100" data-aos-delay="400">
+                    <label for="phone" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="500">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required data-aos="fade-up" data-aos-duration="1100" data-aos-delay="500">
+                    <label for="message" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="600">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Your Message" required data-aos="fade-up" data-aos-duration="1100" data-aos-delay="600"></textarea>
+                    <button type="submit" class="contact-btn" data-aos="zoom-in-up" data-aos-duration="1100" data-aos-delay="700">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="text">
+            <span>Created By <a href="#">Vaishnavi </a>&copy; 2025. All Rights Reserved</span>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({offset:0});
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
